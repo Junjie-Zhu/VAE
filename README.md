@@ -2,8 +2,6 @@
 
 **Overview of VAE:** Variational Autoencoder (VAE) generates similar conformations based on a given MD trajectory, thus can be used to enhance the sampling of the diverse conformation for intrinsically disordered proteins (IDPs) and structural proteins.
 
-![image-20230104120437191](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20230104120437191.png)
-
 ### Dependencies
 
 - Compatible with Python 3.x.
