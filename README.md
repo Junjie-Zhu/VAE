@@ -11,7 +11,7 @@
 
 1. Install all the requirements by executing `pip install -r requirements.txt.`
 2. Install required protein `.pdb` processing library `biobox` from [this](https://github.com/Degiacomi-Lab/biobox) github repository.
-3. Next execute `python preprocess.py pdb` which aligns the conformations from input `pdb` and creates VAE-required dataset.
+3. Next execute `python preprocess.py pdb split` which aligns the conformations from input `pdb` and creates VAE-required dataset at certain `split`.
 4. To start a training run:
 
 ```bash
