@@ -12,7 +12,7 @@ def main():
 
     if not os.path.exists("./data/"):
         os.makedirs("./data/")
-    np.savetxt("./data/%s" % (sys.argv[1].replace(".pdb", "_train.dat")), x_train_orig)
+    np.savetxt("./data/%s" % (sys.argv[1].replace(".pdb", ".train.dat")), x_train_orig)
     np.savetxt("./data/%s" % (sys.argv[1].replace(".pdb", "_test.dat")), x_test_orig)
 
 
